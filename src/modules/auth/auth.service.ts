@@ -6,7 +6,10 @@ import { UpdateAuthDto } from './dto/update-auth.dto';
 export class AuthService {
   refreshToken() {}
   login() {}
-  register() {}
+  register() {
+    return 'register';
+  }
+
   create(createAuthDto: CreateAuthDto) {
     return 'This action adds a new auth';
   }
