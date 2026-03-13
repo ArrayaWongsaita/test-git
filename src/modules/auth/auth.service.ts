@@ -9,6 +9,7 @@ export class AuthService {
 =======
   register() {}
 >>>>>>> d3d8ece (feat(auth):Create register method to contorller and service)
+  login() {}
   create(createAuthDto: CreateAuthDto) {
     return 'This action adds a new auth';
   }

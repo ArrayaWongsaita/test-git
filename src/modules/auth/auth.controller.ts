@@ -27,6 +27,12 @@ export class AuthController {
     return this.authService.register();
   }
 >>>>>>> d3d8ece (feat(auth):Create register method to contorller and service)
+
+  @Post('login')
+  login() {
+    return this.authService.login();
+  }
+
   @Post()
   create(@Body() createAuthDto: CreateAuthDto) {
     return this.authService.create(createAuthDto);
