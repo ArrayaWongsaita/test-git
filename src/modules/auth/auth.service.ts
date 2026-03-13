@@ -4,7 +4,13 @@ import { UpdateAuthDto } from './dto/update-auth.dto';
 
 @Injectable()
 export class AuthService {
+<<<<<<< HEAD
   login() {}
+=======
+  register() {}
+>>>>>>> d3d8ece (feat(auth):Create register method to contorller and service)
+  login() {}
+  register() {}
   create(createAuthDto: CreateAuthDto) {
     return 'This action adds a new auth';
   }
