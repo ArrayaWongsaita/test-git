@@ -33,6 +33,10 @@ export class AuthController {
     return this.authService.login();
   }
 
+  @Post('register')
+  register() {
+    return this.authService.register();
+  }
   @Post()
   create(@Body() createAuthDto: CreateAuthDto) {
     return this.authService.create(createAuthDto);
