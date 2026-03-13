@@ -7,6 +7,7 @@ export class AuthService {
   refreshToken() {}
   login() {}
   register() {}
+
   create(createAuthDto: CreateAuthDto) {
     return 'This action adds a new auth';
   }
