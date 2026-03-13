@@ -14,12 +14,19 @@ import { UpdateAuthDto } from './dto/update-auth.dto';
 @Controller('auth')
 export class AuthController {
   constructor(private readonly authService: AuthService) {}
+<<<<<<< HEAD
 
   @Post('login')
   login() {
     return this.authService.login();
   }
 
+=======
+  @Post('register')
+  register() {
+    return this.authService.register();
+  }
+>>>>>>> d3d8ece (feat(auth):Create register method to contorller and service)
   @Post()
   create(@Body() createAuthDto: CreateAuthDto) {
     return this.authService.create(createAuthDto);
