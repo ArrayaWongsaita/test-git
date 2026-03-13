@@ -4,7 +4,9 @@ import { UpdateAuthDto } from './dto/update-auth.dto';
 
 @Injectable()
 export class AuthService {
-  refreshToken() {}
+  refreshToken() {
+    return 'refresh token';
+  }
   login() {}
   register() {
     return 'register';
