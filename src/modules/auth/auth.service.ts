@@ -4,11 +4,7 @@ import { UpdateAuthDto } from './dto/update-auth.dto';
 
 @Injectable()
 export class AuthService {
-<<<<<<< HEAD
-  login() {}
-=======
-  register() {}
->>>>>>> d3d8ece (feat(auth):Create register method to contorller and service)
+  refreshToken() {}
   login() {}
   register() {}
   create(createAuthDto: CreateAuthDto) {
